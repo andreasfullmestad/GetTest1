@@ -10,6 +10,36 @@ namespace GitTest1
     {
         static void Main(string[] args)
         {
+
+
+
+            Count();
+
+            PrintSomeText();
+
+
         }
+
+        private static void Count()
+        {
+            Console.WriteLine("Lägg ihop två tal!");
+            Console.WriteLine("Skriv in tal 1!");
+            string strnr1 = Console.ReadLine();
+            int nr1 = Convert.ToInt32(strnr1);
+            Console.WriteLine("Skriv in tal 2!");
+
+            string strnr2 = Console.ReadLine();
+            int nr2 = Convert.ToInt32(strnr2);
+            int sum = nr1 - nr2;
+            Console.WriteLine("Summan är: " + sum);
+
+
+        }
+
+        private static void PrintSomeText()
+        {
+            Console.WriteLine('Nu får du nååååt att bita i Johan');
+        }
+
     }
 }
