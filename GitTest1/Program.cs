@@ -17,7 +17,7 @@ namespace GitTest1
 
             PrintSomeText();
             
-            //Hej hej
+            //Hej hejfgaadf
         }
 
         private static void Count()
