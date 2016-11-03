@@ -37,7 +37,7 @@ namespace GitTest1
             int sum = nr1 + nr2;
             Console.WriteLine("Summan är: " + sum);
 
-
+            //För att ställa till det
         }
 
         private static void PrintSomeText()
