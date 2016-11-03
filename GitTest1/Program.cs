@@ -30,7 +30,11 @@ namespace GitTest1
 
             string strnr2 = Console.ReadLine();
             int nr2 = Convert.ToInt32(strnr2);
-            int sum = nr1 - nr2;
+
+            /*Korrigerade - till + så att uträkningen fungerar som den ska
+              - Kristoffer
+            */ 
+            int sum = nr1 + nr2;
             Console.WriteLine("Summan är: " + sum);
 
 
