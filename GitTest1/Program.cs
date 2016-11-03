@@ -17,6 +17,7 @@ namespace GitTest1
 
             PrintSomeText();
             //Kommentar
+            //Ny kommetar
 
         }
 
