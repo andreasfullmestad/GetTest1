@@ -42,7 +42,7 @@ namespace GitTest1
 
         private static void PrintSomeText()
         {
-            Console.WriteLine('Nu får du nååååt att bita i Johan');
+            Console.WriteLine("NuNu får du nååååt att bita i Johan");  //Ny kommentar
         }
 
     }
